@@ -57,14 +57,14 @@ class News extends \GeorgRinger\News\Domain\Model\News
     /**
      * organizer
      *
-     * @var \GeorgRinger\Eventnews\Domain\Model\Organizer
+     * @var \Hwt\HwtAddress\Domain\Model\Address
      */
     protected $organizer = null;
 
     /**
      * location
      *
-     * @var \GeorgRinger\Eventnews\Domain\Model\Location
+     * @var \Hwt\HwtAddress\Domain\Model\Address
      */
     protected $location = null;
 
@@ -164,7 +164,7 @@ class News extends \GeorgRinger\News\Domain\Model\News
     /**
      * Returns the organizer
      *
-     * @return \GeorgRinger\Eventnews\Domain\Model\Organizer $organizer
+     * @return \Hwt\HwtAddress\Domain\Model\Address $organizer
      */
     public function getOrganizer()
     {
@@ -174,10 +174,10 @@ class News extends \GeorgRinger\News\Domain\Model\News
     /**
      * Sets the organizer
      *
-     * @param \GeorgRinger\Eventnews\Domain\Model\Organizer $organizer
+     * @param \Hwt\HwtAddress\Domain\Model\Address $organizer
      * @return void
      */
-    public function setOrganizer(\GeorgRinger\Eventnews\Domain\Model\Organizer $organizer)
+    public function setOrganizer(\Hwt\HwtAddress\Domain\Model\Address $organizer)
     {
         $this->organizer = $organizer;
     }
@@ -185,7 +185,7 @@ class News extends \GeorgRinger\News\Domain\Model\News
     /**
      * Returns the location
      *
-     * @return \GeorgRinger\Eventnews\Domain\Model\Location $location
+     * @return \Hwt\HwtAddress\Domain\Model\Address $location
      */
     public function getLocation()
     {
@@ -195,10 +195,10 @@ class News extends \GeorgRinger\News\Domain\Model\News
     /**
      * Sets the location
      *
-     * @param \GeorgRinger\Eventnews\Domain\Model\Location $location
+     * @param \Hwt\HwtAddress\Domain\Model\Address $location
      * @return void
      */
-    public function setLocation(\GeorgRinger\Eventnews\Domain\Model\Location $location)
+    public function setLocation(\Hwt\HwtAddress\Domain\Model\Address $location)
     {
         $this->location = $location;
     }
